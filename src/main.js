@@ -1,6 +1,12 @@
 import './styles/style.css'
 import * as THREE from 'three'
 
+//sound
+// let mySound = new Audio('/sound.mp3')
+// if (mouseX)
+// mySound.play()
+
+
 //texture loader    
 const loader = new THREE.TextureLoader();
 const star = loader.load('./static/star.png');
